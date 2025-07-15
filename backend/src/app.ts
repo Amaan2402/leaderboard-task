@@ -21,8 +21,8 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Leaderboard API");
 });
 
-app.use("/api/user", userRoutes);
-app.use("/api/history", historyRoutes);
+app.use("/user", userRoutes);
+app.use("/history", historyRoutes);
 
 app.use((req: Request, res: Response) => {
   res.status(404).json({ error: "Route not found" });
