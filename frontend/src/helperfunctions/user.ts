@@ -2,21 +2,21 @@ import axios from "axios";
 
 export const getUsers = async (page = 1) => {
   const response = await axios.get(
-    `https://api.leaderboard-task.amaan24.tech/user?page=${page}`
+    `https://api.leaderboard-task-v1.amaan24.tech/user?page=${page}`
   );
   return response.data;
 };
 
 export const getLeaderBoard = async () => {
   const response = await axios.get(
-    "https://api.leaderboard-task.amaan24.tech/user/leaderboard"
+    "https://api.leaderboard-task-v1.amaan24.tech/user/leaderboard"
   );
   return response.data;
 };
 
 export const addUser = async (name: string) => {
   const response = await axios.post(
-    "https://api.leaderboard-task.amaan24.tech/user",
+    "https://api.leaderboard-task-v1.amaan24.tech/user",
     {
       name: name,
     }
@@ -27,7 +27,7 @@ export const addUser = async (name: string) => {
 
 export const claimPoints = async (userId: string) => {
   const response = await axios.post(
-    `https://api.leaderboard-task.amaan24.tech/user/claim/${userId}`
+    `https://api.leaderboard-task-v1.amaan24.tech/user/claim/${userId}`
   );
   return response.data;
 };
