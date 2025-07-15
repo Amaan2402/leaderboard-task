@@ -1,0 +1,1 @@
+{"root":["./src/app.ts","./src/server.ts","./src/socket.ts","./src/controllers/history.ts","./src/controllers/user.ts","./src/models/claimhistory.ts","./src/models/user.ts","./src/routes/history.ts","./src/routes/user.ts","./src/types/types.ts","./src/utils/customerror.ts","./src/utils/joi.ts","./src/utils/wrapasync.ts"],"version":"5.8.3"}
