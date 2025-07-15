@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { addUser } from "../helperfunctions/user";
 import toast from "react-hot-toast";
-import { Link } from "react-router-dom";
 
 function AddUser() {
   const [name, setName] = useState("");
