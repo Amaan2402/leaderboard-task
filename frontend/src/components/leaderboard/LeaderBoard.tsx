@@ -19,7 +19,7 @@ function LeaderBoard() {
 
   const socket = useRef<Socket | null>(null);
 
-  const socketURL = "https://api.leaderboard-task.amaan24.tech";
+  const socketURL = "https://api.leaderboard-task-v1.amaan24.tech";
 
   const fetchLeaderBoard = async () => {
     try {

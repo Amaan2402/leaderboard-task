@@ -7,7 +7,7 @@ export function initialiseSocket(server: any) {
     cors: {
       origin: [
         "http://localhost:5173",
-        "https://leaderboard-task-v1.amaan24.tech",
+        "https://leaderboard-task.amaan24.tech",
       ],
       credentials: true,
     },
